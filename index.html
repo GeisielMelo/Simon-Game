@@ -13,16 +13,16 @@
       <div class="main-container">
         <div class="container">
           <h1 class="title">Simon Game</h1>
-          <div class="grid grid-design">
-            <div class="div1 div-hover"></div>
-            <div class="div2 div-hover"></div>
-            <div class="div3 div-hover"></div>
-            <div class="div4 div-hover"></div>
+          <div id="grid" class="grid grid-design">
+            <div id="green" class="div1 div-active" onclick="playSound('green')"></div>
+            <div id="red" class="div2 div-active" onclick="playSound('red')"></div>
+            <div id="yellow" class="div3 div-active" onclick="playSound('yellow')"></div>
+            <div id="blue" class="div4 div-active" onclick="playSound('blue')"></div>
           </div>
           <div class="menu">
             <p class="score">----</p>
-            <button class="start btn"></button>
-            <button class="reset btn"></button>
+            <button class="start btn" onclick="start()"></button>
+            <button class="reset btn" onclick="reset()"></button>
             <p class="max-score">----</p>
           </div>
         </div>
