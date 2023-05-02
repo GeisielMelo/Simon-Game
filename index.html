@@ -14,16 +14,16 @@
         <div class="container">
           <h1 class="title">Simon Game</h1>
           <div id="grid" class="grid grid-design">
-            <div id="green" class="div1 div-active" onclick="playSound('green')"></div>
-            <div id="red" class="div2 div-active" onclick="playSound('red')"></div>
-            <div id="yellow" class="div3 div-active" onclick="playSound('yellow')"></div>
-            <div id="blue" class="div4 div-active" onclick="playSound('blue')"></div>
+            <div id="green" class="div1 div-pressed" onclick="playSound('green')">green</div>
+            <div id="red" class="div2 div-pressed" onclick="playSound('red')">red</div>
+            <div id="yellow" class="div3 div-pressed" onclick="playSound('yellow')">yellow</div>
+            <div id="blue" class="div4 div-pressed" onclick="playSound('blue')">blue</div>
           </div>
           <div class="menu">
-            <p class="score">----</p>
+            <p id ="score" class="score">--</p>
             <button class="start btn" onclick="start()"></button>
             <button class="reset btn" onclick="reset()"></button>
-            <p class="max-score">----</p>
+            <p id ="max-score" class="max-score">--</p>
           </div>
         </div>
       </div>
