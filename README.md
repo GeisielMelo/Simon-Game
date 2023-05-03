@@ -15,9 +15,9 @@ Every time you successfully reproduce the sequence, the game will become more ch
 
 ## Features
 
-- Start/Reset functions.
-- Score/Max score.
-- Resposive.
+- Start and Reset functions for easy control of the game.
+- Score and Max Score tracking to help you keep track of your progress.
+- Responsive design that works well on desktop or mobile devices.
 
 
 ## Tech Stack
